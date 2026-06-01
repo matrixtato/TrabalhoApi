@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d1d1d1;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #ffcb05;
+    border: 12px solid #3b4cca;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px; /* Adiciona margem em volta de cada card */
+    
+}
+
+/* #imagempkn {
+    background-color: #ffffff;
+    border: 4px solid #888;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+} */
+
+.stats-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+h3 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Espaço entre o input e a pokebola */
+    margin-top: 10px;
+}
+
+.btn-pokebola {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-pokebola img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-pokebola:hover {
+    transform: scale(1.1);
+}
+
+#listaPersonagens {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 160px;
+}
+
+.Diferença {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
